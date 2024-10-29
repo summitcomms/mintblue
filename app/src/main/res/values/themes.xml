@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 기존 테마 정의 -->
+    <style name="Theme.Summitcomms" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <!-- 추가된 테마 정의 -->
+    <style name="Theme.Pty" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryContainer">@color/purple_700</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+    </style>
+
+</resources>
